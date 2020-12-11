@@ -64,7 +64,7 @@ class REST::InstanceSerializer < ActiveModel::Serializer
   end
 
   def max_toot_chars
-    5000
+    10000
   end
 
   def invites_enabled
